@@ -13,7 +13,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="index.php">← Volver al Login</a></li>
+                <li><a href="index.php">Empleados</a></li>
                 <li><a href="visitas.php">Visitas</a></li>
             </ul>
         </nav>
@@ -67,4 +67,5 @@
         </div>
     </main>
 </body>
+
 </html>
