@@ -35,7 +35,7 @@ nav ul {
     justify-content: center;
 }
 
-nav ul li a {
+nav ul li a{
     display: block;
     color: #fff;
     text-decoration: none;
@@ -43,7 +43,7 @@ nav ul li a {
     transition: background-color 0.3s;
 }
 
-nav ul li a:hover, nav ul li a.active {
+nav ul li a:hover{
     background-color: #1abc9c;
 }
 
@@ -118,4 +118,21 @@ button:hover {
     padding: 10px;
     background-color: #d5f4e6;
     border-radius: 4px;
+}
+.register-link, .login-link {
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.register-link a, .login-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover, .login-link a:hover {
+    text-decoration: underline;
 }
